@@ -1,0 +1,59 @@
+<html>
+<title>
+<head></head>
+</title>
+<body bgcolor="grey">
+
+<form name="MyForm" method="POST" action="dbconnect.php">
+<fieldset>
+<legend> <b>register</b></legend> 
+
+<table border="1" align="center" cellspacing="0" cellpadding="0">
+<tr> 
+ <td align="center" colspan="3"> 
+<strong>register with zalego<BR> </strong>  </td> 
+  </tr> 
+ <tr> 
+ <td align="right"> 
+ <B> first name:</B>
+   </td> 
+ <td align="left"> 
+<input type="text" name="firstname"  required="required"
+ size="30" value="" />  </td> 
+ <td align="left"> 
+   </tr> 
+ <tr> 
+ <td align="right"> 
+ <B>last name:</B>
+   </td> 
+ <td align="left"> 
+<input type="text" name="lastname" required="required" size="20"   value="" />  </td> 
+ <td align="left"> 
+  </tr> 
+  
+   <tr> 
+ <td align="right"> 
+ <B> username:</B>
+   </td> 
+ <td align="left"> 
+<input type="text" name="username" required="required" size="20" placeholder="eg.mutava@gmail.com" value="" />  </td> 
+ <td align="left"> 
+   </tr>
+   <tr> 
+ <td align="right"> 
+ <B>password:</B>
+   </td> 
+ <td align="left"> 
+<input type="text" name="password" required="required" size="20" minlength="4"  value="" />  </td> 
+ <td align="left"> 
+  </tr>  
+<tr>
+   <td align="center" colspan="3"> 
+<input type="hidden" name="logonTokenID" value="JKUTVO1222" > 
+<font color="red"><input type="submit" name="register" value ="register"/> </td> 
+  </tr>
+</table>
+</form>
+<p>already registered?<a href="login4.php">CLICK HERE</a> to login</P>
+</body>
+</html>
